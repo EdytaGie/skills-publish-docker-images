@@ -41,7 +41,6 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: ghcr.io/edytagie/skills-publish-docker-images/stackoverflown
-``
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
